@@ -14,7 +14,7 @@ namespace ConsoleApp3
             int a = int.Parse(Console.ReadLine());
             Console.Write("Enter the B: ");
             int b = int.Parse(Console.ReadLine());
-            Console.WriteLine("A - B = {0}", a - b);
+            Console.WriteLine("A * B = {0}", a * b);
             Console.ReadKey();
         }
     }
